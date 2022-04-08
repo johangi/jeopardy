@@ -1,3 +1,37 @@
+body{
+    background-color: #060CE9;
+}
+
 .heading{
     align-content: center;
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+}
+
+.table{
+    color: white;
+}
+
+table, th, tr {
+    margin: 0 auto 0 auto;
+    padding: 0 5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+  }
+
+#heading-separator{
+    margin-bottom: 30px;
+}
+
+.money{
+    color: goldenrod;
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+td{
+    padding-bottom: 25px;
 }

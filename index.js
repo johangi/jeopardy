@@ -1,5 +1,3 @@
-const eventWindow = document.querySelector('#questionTable');
-
-eventWindow.addEventListener('click', event => {
-    console.log(event.target);
+$("#questionTable td").on("click", function(cell){
+    console.log(this.id);
 })

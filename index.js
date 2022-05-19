@@ -2,6 +2,8 @@
 //     mathQ1.classList.add("clicked")
 // })
 
-document.querySelector.on("click", function(){
-    mathQ1.classList.add("clicked")
-})
+let element = document.getElementById("#questionTable")
+
+document.addEventListener('click', () => {
+    mathQ1.classList.add('clicked')
+  })

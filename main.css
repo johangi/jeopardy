@@ -1,5 +1,5 @@
 body{
-    background-color: #060CE9;
+    background-color: #7000E7;
 }
 
 .heading{
@@ -27,7 +27,7 @@ table, th, tr {
 }
 
 .money{
-    color: goldenrod;
+    color: orange;
     font-size: 3rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -38,7 +38,7 @@ td{
 
 a{
     text-decoration: none;
-    color: goldenrod;
+    color: orange;
 }
 
 .clicked{

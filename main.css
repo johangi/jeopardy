@@ -45,3 +45,9 @@ a{
     text-decoration: line-through;
     color: rgb(67, 51, 9);
 }
+
+.question {
+    display: block;
+    position: absolute;
+    text-align: center;
+}

@@ -2,7 +2,7 @@ body{
     background-color: #7000E7;
 }
 
-.heading{
+#heading{
     align-content: center;
     text-align: center;
     color: white;
@@ -22,7 +22,7 @@ table, th, tr {
     font-family: 'Playfair Display', serif;
   }
 
-#heading-separator{
+.heading-separator{
     margin-bottom: 30px;
 }
 
@@ -42,12 +42,17 @@ a{
 }
 
 .clicked{
-    text-decoration: line-through;
     color: rgb(67, 51, 9);
 }
 
 .question {
     display: block;
-    position: absolute;
     text-align: center;
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+
+.doneBTN {
+    font-size: 1.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
